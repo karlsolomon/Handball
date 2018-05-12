@@ -1,0 +1,30 @@
+Player class
+	constraints
+Bracket class
+	list of Rounds
+Round class
+	list of matches
+Match class
+	Day
+	Time
+	Players (2,4)
+Court class
+	map of <time, Match>
+Constraints class
+	doubles
+
+Inputs
+	1. list of divisions
+	2. list of players in divisions
+	3. list of time constraints per player
+	4. player seeding
+
+
+
+1. make brackets w/ ideal times (start & finals)
+2. populate brackets w/ players
+for each round
+	3. populate brackets w/ matches based on player seeding (unchecked)
+	4. resolve conflicts for one player playing @ same time
+	5. resolve conflicts for players specific conflicts
+
